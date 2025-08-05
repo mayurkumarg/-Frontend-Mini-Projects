@@ -1,0 +1,17 @@
+🧱 Web Builder
+A responsive front-end project that mimics a YouTube-style playlist interface using HTML, CSS, and JavaScript. Users can dynamically generate video cards with formatted views and upload durations—ideal for practicing DOM manipulation and UI layout building.
+
+🛠️ Features:
+
+Sidebar navigation with clean icons
+
+Featured course intro card with styled description
+
+Dynamically adds video cards via user prompts
+
+View counts auto-formatted to K, M, B
+
+Upload age shown in days/months/years
+
+Smooth scrollable layout with gradient styling
+
