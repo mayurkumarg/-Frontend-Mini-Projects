@@ -1,0 +1,24 @@
+1. Open index.html in any browser.
+
+2. A popup will ask:
+
+  - 💬 How many cards do you want to add?
+
+3. For each card, enter:
+
+  - Video duration (e.g., 10:32)
+
+  - Topic (e.g., HTML)
+
+  - Title (e.g., Intro to HTML)
+
+  - Views (e.g., 12000)
+
+  - Days since uploaded (e.g., 45)
+
+4. The cards will be generated and displayed under the intro section.
+
+
+✅ View counts auto-format into K, M, B
+✅ Upload time shown as days/months/years
+✅ Scrollable and responsive layout
