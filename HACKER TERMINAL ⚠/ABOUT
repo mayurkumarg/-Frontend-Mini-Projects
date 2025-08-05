@@ -1,0 +1,14 @@
+📟 Terminal Hacking Simulator
+A fun and interactive terminal-style simulation that mimics a "hacking" sequence using JavaScript, HTML, and CSS. The script displays animated terminal messages with blinking dots, delays, and fake file reading effects to create a hacking illusion.
+
+🛠️ Features:
+
+- Simulated hacking messages with random delays
+
+- Blinking terminal-style dots animation
+
+- Prompt-based activation and validation
+
+- Dynamic DOM manipulation
+
+- Fully responsive and styled like a retro terminal
