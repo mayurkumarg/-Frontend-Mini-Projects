@@ -1,0 +1,20 @@
+
+
+---
+
+** 📂 Source Files **
+
+This project is built entirely with **HTML**, **CSS**, and **JavaScript**.
+
+* **HTML (`.html`)** → Structures the page layout and elements.
+* **CSS (`.css`)** → Styles the navigation, playlists, song cards, and player controls.
+* **JavaScript (`.js`)** → Adds interactivity, including:
+
+  * Playing and pausing songs
+  * Creating custom playlists
+  * Searching with live suggestions
+
+All source files are written in vanilla HTML/CSS/JS — no external frameworks — making the project lightweight and easy to understand.
+
+---
+
