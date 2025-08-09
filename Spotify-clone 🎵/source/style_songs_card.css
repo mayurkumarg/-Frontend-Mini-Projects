@@ -1,0 +1,151 @@
+html, body {
+  overflow: hidden !important;  /* Temporarily disable scroll */
+}
+
+.songs_container {
+  margin: 10px;
+  padding: 10px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* overflow: scroll; */
+}
+
+.spotify_playlist_title {
+  font-size: 22px;
+  padding: 12px;
+}
+
+.card {
+  width: 180px;
+  height: 230px;
+  /* border: 2px solid red; */
+  padding: 12px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+}
+.card:hover{
+     background-color: #303030;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.songs_container{
+    overflow: scroll;
+    /* border: 1px solid red; */
+    height: 59vh;
+
+    overflow-y: scroll;     /* Vertical scroll only */
+  overflow-x: hidden;     /*  No horizontal scroll */
+}
+
+
+.card_image {
+  width: 100%; /* 👈 Perfectly fits the width */
+  height: auto;
+  /* border: 1px solid red; */
+  border-radius: 8px;
+}
+.card_title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 👈 Limit to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  color: rgb(210, 208, 208);
+}
+
+.play_button_container {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 30px;
+  top: 135px;
+}
+
+
+.fancy-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #0f0f0f #303030;
+}
+.fancy-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.fancy-scrollbar::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom,
+      rgba(17, 89, 114, 0.8) 0%,
+      rgba(17, 89, 114, 0.3) 33%,
+      rgba(15, 15, 15, 1) 100%);
+  border-radius: 8px;
+}
+.fancy-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #767070;
+  border-radius: 6px;
+}
+
+
+
+.play_button_container{
+  transition: transform 0.3s ease;
+}
+
+.play_button_container:hover{
+  transform: scale(1.13); /* Slightly smaller on hover (zoom out effect) */
+}
+
+.play_button_2{
+  background: none;
+  border: none;
+  cursor: pointer;
+
+}
+.play_button_2_i{
+      height: 35px;
+border-radius: 40px;
+}
+
+.pp{
+  transition: transform 0.3s ease;
+}
+                        /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<     Here    */
+.pp{
+  transform: scale(1.13); /* Slightly smaller on hover (zoom out effect) */
+}
+
+.playbar{
+    width: 100%;
+    position:absolute;
+    height: 55px;
+    /* border: 2px solid red; */
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* opacity: 0.2; */
+}
+
+
+.nav_button{
+      background: none;
+  border: none;
+}
+
+.nv{
+    filter: invert(1);
+    height: 35px;
+    cursor: pointer;
+}
