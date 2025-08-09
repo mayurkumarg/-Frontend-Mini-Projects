@@ -1,0 +1,12 @@
+🎵 Audio Files
+The audio files folder contains all the .mp3 music tracks used in this Spotify Clone project. Each audio file corresponds to a song listed in the app’s song library (songs.json). These files are carefully organized to ensure smooth playback and easy maintenance.
+
+All tracks are in .mp3 format for wide compatibility with modern browsers.
+
+Each file is named clearly to match the song metadata for easy identification.
+
+These audio files are the heart of the player, enabling instant streaming when a user clicks on a song.
+
+Having all audio files stored locally helps in quick loading and offline testing during development.
+
+This setup guarantees that the music player can deliver a seamless and enjoyable listening experience without relying on external servers or streaming services.
