@@ -1,1 +1,58 @@
 
+# 🎵 Spotify Web Player Clone
+
+## 📌 Overview
+
+This project is a **Spotify-inspired Web Music Player** built using **HTML, CSS, and JavaScript**.
+It allows users to explore playlists, play songs directly from the browser, and even create their own custom playlists — all in a clean and interactive UI.
+
+---
+
+## ✨ Features
+
+* **🎶 Play Songs Instantly** – Click on any track to start streaming instantly.
+* **📂 Create Your Own Playlist** – Add your favorite songs into a personal playlist with a simple search & add feature.
+* **🔍 Search with Suggestions** – Start typing a song name and get instant search predictions.
+* **▶ Play/Pause Controls** – Control playback using the playbar with next/previous functionality (extendable).
+* **🖼 Stylish UI** – Inspired by Spotify's modern look, with album covers, hover effects, and smooth controls.
+
+---
+
+## 🛠 How It Works
+
+1. **Song Library** is loaded from a JSON file.
+2. **Clicking a Play Button** loads and plays the selected song.
+3. **Playlist Creation** allows you to search from available songs and add them to a personal list.
+4. **Real-time Search Prediction** helps you find songs quickly.
+
+---
+
+## 🎧 Songs Available
+
+| #  | Song Name            |
+| -- | -------------------- | 
+| 1  | Why This Kolaveri Di | 
+| 2  | Aaja Nachle          |
+| 3  | Aye Mere Humsafar    |
+| 4  | Blue Eyes            |
+| 5  | Crying               |
+| 6  | Chahun Main Ya Naa   |
+| 7  | Shape of You         |
+| 8  | Guzarish             |
+| 9  | Janam Janam          |
+| 10 | Saiyaara             |
+| 11 | Teri Meri            |
+| 12 | Tujhe Dekha To       | 
+
+---
+
+## 📂 Tech Stack
+
+* **HTML5** – Structure
+* **CSS3** – Styling & Layout
+* **JavaScript (Vanilla)** – Functionality & Interactions
+* **JSON** – Song data storage
+
+---
+
+
