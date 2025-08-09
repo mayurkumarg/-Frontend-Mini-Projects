@@ -18,3 +18,51 @@ All source files are written in vanilla HTML/CSS/JS — no external frameworks �
 
 ---
 
+
+File Structure: 
+
+/ (root folder)
+│
+├── songs/                          # Folder containing audio files (not expanded in image)
+│ 
+├── index.html
+├── card----03-----Arjit_singh.jpeg
+├── card----06-----Gajini.jpeg
+├── card----09-----Theri_meri.jpeg
+├── card----11-----yo_yo_singh.jpeg
+├── favicon.ico
+├── brows_logo.svg
+├── login_logo.svg
+├── play_button.svg
+├── script_playlist.js
+├── skip_next_button.svg
+├── spotify_logo.svg
+├── style_playlist_DEMO.css
+├── add_logo.svg
+├── card----01-----Aaja_nachle.jpeg
+├── card----04-----BollyWood_chill.jpeg
+├── card----07-----Saiyara.jpeg
+├── card----10-----lofi_beats.jpeg
+├── card----12-----90's Sad Bollywood.jpeg
+├── friends_logo.svg
+├── install_logo.svg
+├── New Text Document.txt
+├── Play_button_2.svg
+├── script_search_song.js
+├── skip_previous_button.svg
+├── style_main.css
+├── style_songs_card.css
+├── bell_logo.svg
+├── card----02-----Aashiqui2.jpeg
+├── card----05-----Ed_sheeran.jpeg
+├── card----08-----Sharuk_khan.jpeg
+├── card----10-----tolly_wood_pearls.svg
+├── dummy.html
+├── home_logo.svg
+├── library_logo.svg
+├── Pause_Button.svg
+├── script.js
+├── search_bar_logo.svg
+├── song_logo.svg
+├── style_nav.css
+├── tempCodeRunnerFile.js
