@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    border: 2px solid #000000;
+    display: flex;
+    padding:20px 0 20px 0;
+    height: 6vh;
+    background-color: black;
+}
+
+.nav1{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 50vw;
+}
+
+.nav1_2{
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 20px;
+    height: 8vh;
+
+}
+
+.input_container{
+    display: flex;
+    /* width: 30vw; */
+    /* border: 1px solid black; */
+    width: 30vw;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #252525;
+}
+.input_container_1{
+    display: flex;
+    
+    /* justify-content: space-between; */
+}
+
+.logo_button {
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_button2_1{
+    /* background-color: pink; */
+    border-radius: 40px;
+    padding: 3px;
+}
+
+.logo_button2_2{
+    /* background-color: rgb(218, 23, 56); */
+    border-radius: 40px;
+    padding: 1px;
+}
+.logo_button {
+  border: none;        
+  outline: none;        
+  background: none;      
+}
+
+
+.logo {
+    width: 30px;  
+    height: 25px;
+    filter: invert(1);
+}
+
+.input_bar {
+    flex: 1; 
+    min-width: 0; 
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 40px;
+    outline: none;
+    color: white;
+}
+.input_bar_logo{
+    width: 20px;
+}
+
+
+.spotify_logo{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.home_{
+    background-color: #252525;
+    border-radius: 100px;
+    outline: none;
+}
+
+
+.nav2{
+    display: flex;
+    width: 50vw;
+    justify-content: flex-end;
+    gap:30px;
+    align-items: center;
+}
+.nav2_1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav2_2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo2_2{
+    height: 20px;
+    padding: 10px;
+    filter: invert(1);
+    transition: transform 0.2s ease;
+}
+.logo2_2:hover {
+    transform: scale(1.1); /* Zoom the icon when button is hovered */
+}
+.logo2_1{
+    height: 20px;
+    padding: 10px;
+    filter: invert(1);
+
+}
+
+
+
+.nav2_logo_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5vh;
+    width: 10vw;
+    padding: 5px;
+    transition: background-color 0.2s ease;
+    z-index: 1;
+    /* color: white; */
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.explore{
+    background-color: white!important;
+    color: black;
+    font-weight: bold
+}
+.install{
+    background-color: black;
+    color: white;
+    font-weight: bold
+}
+.nav2_logo{
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    z-index: 1;
+}
+.nav2_logo_1 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav2_logo_1:hover {
+  transform: scale(1.1); /* You can increase to 1.15 if you want more zoom */
+}
+
+
+.zb:hover {
+    transform: scale(1.1); /* Zoom effect */
+    background-color: #333333; /* Optional: add subtle background */
+}
+
+/* button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+} */
+
+/* Optional: Only remove outline when hovering or focusing */
+button:focus {
+  outline: none;
+}
+/* Common tooltip style */
+.tooltip {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px 8px;
+  position: absolute;
+  z-index: 1;
+  top: 140%; /* position above the button */
+  left: 30%;
+  transform: translateX(-50%);
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  white-space: nowrap;
+}
+
+/* Show tooltip on hover */
+.nav2_logo:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Make sure buttons have relative positioning */
+.nav2_logo {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav2_logo:hover {
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .input_container {
+        width: 60vw;
+    }
+    .nav1 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .nav2 {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+    }
+}

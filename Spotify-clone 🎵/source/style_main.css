@@ -1,0 +1,179 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+.main{
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    gap: 5px;
+    padding: 8px;
+    padding-bottom: 0px;
+    position: relative;
+}
+.playlist{
+    /* border: 1px solid red; */
+    width: 38vw;
+    /* height: 20vh; */
+    padding: 7px;
+    background-color: #121212;
+    color: white;
+    height: 82vh;
+    margin: 2px;
+    border-radius: 15px;
+}
+.songs{
+    padding: 7px;
+    background-color: #202020;
+    color: white;
+    height: 82vh;
+    margin: 10px;
+    border-radius: 15px;
+    width: 70vw;
+    margin: 2px;
+}
+
+.your_library{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.library_create_button{
+  border: 1px solid rgb(43 43 43);
+  width: 8vw;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  border-radius: 40px;
+  height: 5vh;
+  font-size: bold;
+  background-color: rgb(43 43 43);
+  color: white;
+}
+.library_create_button:hover{
+     background-color:#424141 ;
+}
+.your_library_content{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist_2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.playlist_2_1{
+    /* border: 1px solid black; */
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #1f1f1f;
+    color: white;
+
+}
+
+.creat_playlist_button{
+    border: 1px solid #343333;
+    width: 10vw;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 40px;
+    height: 5vh;
+    font-size: bold;
+    background-color: white;
+    
+}
+
+.songs_nav{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+    background-color: #202020;
+}
+
+.songs_nav_1{
+    border: none;
+  width: 6vw;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  border-radius: 40px;
+  height: 5vh;
+  font-size: bold;
+  background-color: #2c2b2b;
+  color: white;
+}
+
+.all_{
+    border: none;
+    width: 5vw;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    height: 5vh;
+    font-size: bold;
+    background-color: white;
+    color: black;
+}
+
+.songs_nav_1:hover{
+    background-color:#414040 ;
+}
+
+.font{
+   font-family: "Reddit Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.creat_playlist_button {
+  transition: transform 0.3s ease;
+}
+
+.creat_playlist_button:hover {
+  transform: scale(1.05); /* Slightly smaller on hover (zoom out effect) */
+}
+
+
+
+#unique-logo {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#unique-logo:hover {
+  transform: scale(1.2);
+}
+
+.play_button{
+    height: 40px;
+    border-radius: 100px;
+}

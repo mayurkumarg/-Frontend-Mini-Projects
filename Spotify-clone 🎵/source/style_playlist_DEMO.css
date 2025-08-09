@@ -1,0 +1,156 @@
+.creat_playlist {
+  height: 68vh;
+}
+
+.custom-search-container {
+  position: relative;
+  width: 20vw;
+  height: 6vh;
+  display: flex;
+  gap: 2px;
+}
+
+.custom-search-input {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  background-color: #252525;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-search-input::placeholder {
+  color: #aaaaaa;
+}
+
+.custom-search-input:focus {
+  background-color: #2e2e2e;
+  box-shadow: 0 0 5px rgb(72, 72, 72);
+}
+
+.custom-suggestions {
+  position: absolute;
+  top: 100%; /* push below input */
+  left: 0;
+  background: #252525;
+  border: 1px solid #444;
+  border-radius: 10px;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.custom-suggestions div {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.custom-suggestions div:hover {
+  background-color: #333;
+}
+
+/* Optional: clean only search-related buttons if needed */
+.custom-search-button {
+  border: none;
+  outline: none;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.custom-search-container {
+  display: flex;
+}
+
+.search_add {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+
+.creat_playlist{
+         
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* align-items: center; */
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #1f1f1f;
+    color: white;
+    gap: 20px;
+            
+}
+
+.addedplaylist {
+/* border: 1px solid rgb(227, 19, 19); */
+  /* width: 30vw; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 50vh;
+}
+
+.playlist_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #23351a;
+}
+.playlist_card_1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.playlist_card:hover{
+    background-color: #2f4724;
+}
+
+.play_button_2_e{
+  background: none;
+  border: none;
+  cursor: pointer;
+
+}
+.play_button_2_i_e{
+      height: 30px;
+border-radius: 40px;
+}
+
+.pp{
+  transition: transform 0.3s ease;
+}
+                        /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<     Here    */
+.pp{
+  transform: scale(1.13); /* Slightly smaller on hover (zoom out effect) */
+}
+
+
+.Pause_Button_2_i{
+    height: 35px;
+    /* filter: invert(1); */
+}

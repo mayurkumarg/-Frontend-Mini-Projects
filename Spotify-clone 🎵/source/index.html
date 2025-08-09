@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style_nav.css" />
+    <link rel="stylesheet" href="style_main.css" />
+    <link rel="stylesheet" href="style_songs_card.css">
+    
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nata+Sans:wght@100..900&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Reddit+Sans+Condensed:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nata+Sans:wght@100..900&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Reddit+Sans+Condensed:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="nav">
+      <div class="nav1">
+        <div class="spotify_logo">
+          <img src="spotify_logo.svg" alt="Spotify Logo" class="logo" />
+        </div>
+        <div class="nav1_2">
+          <button class="logo_button home_ zb nav2_logo bold">
+            <img src="home_logo.svg" alt="Home logo" class="logo home_logo" />
+            <span class="tooltip font">Home</span>
+          </button>
+
+          <div class="input_container">
+            <div class="input_container_1">
+              <button class="logo_button zb logo_button2_1">
+                <img
+                  src="search_bar_logo.svg"
+                  alt="search bar logo"
+                  class="input_bar_logo logo"
+                />
+              </button>
+              <input
+                type="text"
+                placeholder="What do you want to play ?"
+                class="input_bar"
+                style="border: none; background-color: #252525"
+              />
+            </div>
+            <div class="input_container_2">
+              <button class="logo_button zb logo_button2_2">
+                <img
+                  src="brows_logo.svg"
+                  alt="Brows"
+                  class="logo_button logo"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav2">
+        <div class="nav2_1">
+          <button class="nav2_logo nav2_logo_1 explore zb font">
+            Explore Premium
+            <span class="tooltip font">Get Premium Features</span>
+          </button>
+          <button class="nav2_logo nav2_logo_1 install zb">
+            <img
+              src="install_logo.svg"
+              alt="Install_logo"
+              class="logo2 logo2_1 font"
+            />
+            Install App
+            <span class="tooltip font">Install the App on your device</span>
+          </button>
+        </div>
+        <div class="nav2_2">
+          <button class="nav2_logo nav2_logo_2 bold">
+            <img src="bell_logo.svg" alt="Bell logo" class="logo2 logo2_2" />
+            <span class="tooltip font">What's New</span>
+          </button>
+          <button class="nav2_logo nav2_logo_2 bold">
+            <img
+              src="friends_logo.svg"
+              alt="Friends logo"
+              class="logo2 logo2_2"
+            />
+            <span class="tooltip font">Friend Activity</span>
+          </button>
+          <button class="nav2_logo nav2_logo_2 bold">
+            <img src="login_logo.svg" alt="Login logo" class="logo2 logo2_2" />
+            <span class="tooltip font">Account</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main songs -->
+
+    <main class="main">
+
+      <div class="playlist">
+        <div class="your_library">
+          <!-- <div class="logo-container">
+            <img src="library_logo.svg" alt="Special Logo" class="logo-special" />
+          </div> -->
+
+          <div class="your_library_content bold font">Your Library</div>
+          <button class="library_create_button bold">
+            <img src="add_logo.svg" alt="Add Logo" style="filter: invert(1)" />
+            Create
+          </button>
+        </div>
+
+        <div class="playlist_2 font" id="playlist">
+
+            <!-- here -->
+           <div class="creat_playlist playlist_2_1">
+            <div class="creat_playlist_1 bold">Create your first playlist</div>
+            <div class="creat_playlist_2">It's easy, we'll help you</div>
+            <button class="creat_playlist_button bold font"> 
+              Create playlist
+            </button>
+          </div>
+          <div class="brows_podcasts playlist_2_1">
+            <div class="creat_playlist_1 bold">
+              Let's find some podcasts to follow
+            </div>
+            <div class="creat_playlist_2">
+              We'll keep you updated on new episodes
+            </div>
+            <button class="creat_playlist_button bold font" style="width: 12vw">
+              Browse podcasts
+            </button>
+          </div>
+          <!-- here -->
+
+
+
+        </div>
+      </div>
+
+      <div class="songs">
+        <nav class="songs_nav">
+          <button class="all_ bold font">All</button>
+          <button class="songs_nav_1 bold font">Music</button>
+          <button class="songs_nav_1 bold font">Podcasts</button>
+        </nav>
+
+
+        <!-- <img src="play_button.svg" alt="Play button" class="play_button"> -->
+        <div class="songs_container fancy-scrollbar">
+          <div class="spotify_playlist_title font bold">
+            Spotify Playlists
+          </div>
+
+          <div class="cards">
+
+               <div class="card">
+                    <img src="card----01-----Aaja_nachle.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container play___">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  
+                  <div class="card_title font">
+                    Dance awakens the soul 💃 — Aaja Nachle vibes.
+                  </div>
+               </div>
+               
+               <div class="card">
+                    <img src="card----05-----Ed_sheeran.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    Global heartstrings 🎸 woven with magic 💫 — Ed Sheeran on repeat.
+                  </div>
+               </div>
+               
+               <div class="card">
+                    <img src="card----06-----Gajini.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    Bollywood's dark love saga.  🎧 Ghajini hits that hurt and heal.
+                  </div>
+               </div>
+               
+               <div class="card">
+                    <img src="card----07-----Saiyara.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    India's ultimate love playlist ❤️ Cover - Saiyaara
+                  </div>
+               </div>
+               
+               <div class="card">
+                    <img src="card----08-----Sharuk_khan.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    Timeless romance 💖 powered by Shah Rukh Khan. 
+                  </div>
+               </div>
+               
+               <div class="card">
+                    <img src="card----09-----Theri_meri.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    A soulful clash of distance and desire 💔 — Teri Meri from Bodyguard hits deep. 
+                  </div>
+               </div>
+               
+               <div class="card">
+                    <img src="card----10-----lofi_beats.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    Chill beats ☁️ lofi vibes, and fresh drops every week — tune in & unwind.
+                  </div>
+               </div>
+               
+               <div class="card">
+                    <img src="card----02-----Aashiqui2.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    Broken hearts 🎵 still singing — Aashiqui 2's timeless love anthems.
+                  </div>
+               </div>
+
+                <div class="card">
+                    <img src="card----03-----Arjit_singh.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    Voice of emotions 🎤 — Arijit Singh knows every heartbeat.
+                  </div>
+               </div>
+               
+               <div class="card">
+                    <img src="card----12-----90's Sad Bollywood.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    Old wounds 🎞️, golden tunes — 90s Bollywood sadness never fades.
+                  </div>
+               </div>
+                              
+               <div class="card">
+                    <img src="card----11-----yo_yo_singh.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    Beats that hit hard 🔥 — Yo Yo Honey Singh in full swing. 
+                  </div>
+               </div>
+                              
+               <div class="card">
+                    <img src="card----04-----BollyWood_chill.jpeg" alt="Aaja Nachle song banner" class="card_image">
+                  <button class="play_button_container">
+                    <img src="play_button.svg" alt="Play button" class="play_button">
+                  </button>
+                  <div class="card_title font">
+                    Laid-back grooves 🌙 — Bollywood chill hits to vibe and unwind.. 
+                  </div>
+               </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- <div class="playbar">
+
+      <button class="prev_button nav_button pp">
+        <img src="skip_previous_button.svg" alt="Previous" class="nv">
+      </button>
+
+      <button class="play_button_2 pp">
+        <img src="Play_button_2.svg" alt="Play_button_2" class="play_button_2_i">
+      </button>
+
+      <button class="next_button nav_button pp">``````````````````````````````````````````
+        <img src="skip_next_button.svg" alt="Next button" class="nv">
+      </button>
+      
+    </div> -->
+
+    <script src="script.js"></script>
+    <script src="script_playlist.js"></script>
+    <script src="script_search_song.js"></script>
+  </body>
+</html>
