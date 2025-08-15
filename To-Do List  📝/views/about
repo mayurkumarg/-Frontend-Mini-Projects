@@ -1,1 +1,3 @@
+📂 Views Folder
 
+The views folder contains all the EJS templates used to render HTML pages dynamically for the app.
