@@ -1,0 +1,34 @@
+📝 About This Project
+
+This is a dynamic To-Do List web app built with Node.js, Express, and EJS.
+It lets you create multiple notes/lists and manage tasks efficiently — perfect for tracking daily routines, goals, or custom lists.
+
+
+✨ Key Features
+
+  ->  🆕 Create Notes: Add new notes/lists with unique names.
+
+  ->  ➕ Add Tasks: Add multiple tasks/items to each note.
+
+  ->  ✏️ Edit Notes: Update the name of any existing note.
+
+  ->  🗑 Delete Notes: Remove unwanted notes along with their tasks.
+
+  ->  ✅ Task View: See all tasks in a note with checkboxes to mark completion.
+
+  ->  🔗 Dynamic Routing: Each note has a unique ID, keeping tasks organized.
+
+  ->  ⚡ Method Override: Supports PUT & DELETE requests via HTML forms.
+
+
+🛠 Tech Stack
+
+Backend: Node.js, Express.js
+
+Templating: EJS
+
+Frontend: HTML, CSS
+
+Utilities: UUID for unique IDs, Method-Override for PUT/DELETE
+
+This project showcases CRUD operations, dynamic routing, and interactive front-end features, making it a great hands-on example for web development learning.
