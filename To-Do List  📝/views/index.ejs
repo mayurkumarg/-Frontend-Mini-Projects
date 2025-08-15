@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1 id="tdl">To-Do List</h1>
+    <div id="notes">
+        <%for(let note of notes){  %>
+            <div class="note">
+                <h3><%= note.name %> <button class="edit_btn"><a href="http://localhost:3000/notes/new/<%=note.id%>"><img src="/edit.svg" alt="edit" class="edit_img"></a></button></h3>
+                <div class="list_buttons">
+                    <button class="mylist_btn_cover db"><a href="http://localhost:3000/notes/list/<%=note.id%>" class="mylist_btn">My List</a></button>
+                    <form action="notes/<%=note.id%>?_method=DELETE" method="post">
+                        <button class="mylist_btn_cover db">Delete</button>
+                    </form>
+                </div>
+            </div>
+        <% } %>
+    </div>                                                    
+    <button class="mylist_btn_cover db" style="margin-left: 30px; margin-top: 20px;"><a href="http://localhost:3000/notes/new" class="mylist_btn">Create New List</a></button></div>
+</body>
+</html>

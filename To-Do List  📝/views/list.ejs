@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>My List</title>
+</head>
+<body>
+    <h1 style="margin-left: 43px;"><%=note.name%></h1>
+    <div class="list">
+        <ul>
+            <%for(let item of note.list){%>
+                <ul class="list_check">
+                    <li><input type="checkbox" onclick="toggleStrike(this)"><%=item%></li>
+                </ul>
+            <% } %>
+        </ul>
+    </div>
+    <button class="mylist_btn_cover db" style="margin-left: 43px;"><a href="http://localhost:3000/notes/<%=note.id%>/item" class="mylist_btn">Edit List</a></button>
+    <button class="mylist_btn_cover db" style="margin-left: 43px;"><a href="http://localhost:3000/notes" class="mylist_btn">Back</a></button>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+
+
+
